@@ -29,7 +29,7 @@ export default function Services() {
           })}
         </div>
         <div className="mt-12 text-center">
-          <Link href={`${BASE}/contact`} className="rounded-full bg-[#7B1E3A] px-8 py-3.5 font-bold text-[#F3E3C8] shadow-lg transition-transform hover:scale-105">
+          <Link href={`${BASE}/contact#book`} className="rounded-full bg-[#7B1E3A] px-8 py-3.5 font-bold text-[#F3E3C8] shadow-lg transition-transform hover:scale-105">
             {t.hero.cta1}
           </Link>
         </div>

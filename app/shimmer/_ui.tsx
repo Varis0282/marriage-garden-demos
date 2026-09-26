@@ -94,7 +94,7 @@ export function Nav() {
           <Link href="/" className="hidden text-xs text-[#9C87B5] hover:text-white sm:block">← All demos</Link>
           <LangToggle className="rounded-full border border-white/20 px-3 py-1 text-xs font-semibold hover:bg-white/10" />
           <Link
-            href={`${BASE}/contact`}
+            href={`${BASE}/contact#book`}
             className="hidden rounded-full bg-gradient-to-r from-[#F45B8C] to-[#7C3AED] px-5 py-2 text-sm font-bold text-white shadow-lg shadow-[#F45B8C]/30 transition-transform hover:scale-105 lg:block"
           >
             {t.nav.book}
@@ -111,7 +111,7 @@ export function Nav() {
               {l.label}
             </Link>
           ))}
-          <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="mt-3 block rounded-full bg-gradient-to-r from-[#F45B8C] to-[#7C3AED] px-5 py-3 text-center font-bold text-white">
+          <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="mt-3 block rounded-full bg-gradient-to-r from-[#F45B8C] to-[#7C3AED] px-5 py-3 text-center font-bold text-white">
             {t.nav.book}
           </Link>
         </nav>
@@ -202,7 +202,7 @@ export function VenueCard({ i, full = false }: { i: number; full?: boolean }) {
             ))}
           </ul>
         )}
-        <Link href={`${BASE}/contact`} className="mt-5 inline-block rounded-full bg-gradient-to-r from-[#F45B8C] to-[#7C3AED] px-5 py-2 text-sm font-bold text-white shadow-lg shadow-[#F45B8C]/25 transition-transform hover:scale-105">
+        <Link href={`${BASE}/contact#book`} className="mt-5 inline-block rounded-full bg-gradient-to-r from-[#F45B8C] to-[#7C3AED] px-5 py-2 text-sm font-bold text-white shadow-lg shadow-[#F45B8C]/25 transition-transform hover:scale-105">
           {t.nav.book} →
         </Link>
       </div>
@@ -312,7 +312,7 @@ export function CTABand() {
         <h2 className="relative text-3xl font-extrabold text-white md:text-5xl">{t.sections.ctaTitle}</h2>
         <p className="relative mt-4 text-[#B9A6CD]">{t.sections.ctaSub}</p>
         <div className="relative mt-8 flex flex-wrap justify-center gap-4">
-          <Link href={`${BASE}/contact`} className="rounded-full bg-gradient-to-r from-[#F45B8C] to-[#7C3AED] px-8 py-3.5 font-bold text-white shadow-xl shadow-[#F45B8C]/30 transition-transform hover:scale-105">
+          <Link href={`${BASE}/contact#book`} className="rounded-full bg-gradient-to-r from-[#F45B8C] to-[#7C3AED] px-8 py-3.5 font-bold text-white shadow-xl shadow-[#F45B8C]/30 transition-transform hover:scale-105">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${inst.phoneRaw}`} className="flex items-center gap-2 rounded-full border border-white/30 px-8 py-3.5 font-bold text-white transition-colors hover:bg-white/10">

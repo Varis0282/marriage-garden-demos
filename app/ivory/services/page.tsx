@@ -22,7 +22,7 @@ export default function Services() {
             </div>
           );
         })}
-        <Link href={`${BASE}/contact`} className={`mt-8 inline-flex items-center gap-1 text-lg font-bold underline underline-offset-4 ${TEAL}`}>
+        <Link href={`${BASE}/contact#book`} className={`mt-8 inline-flex items-center gap-1 text-lg font-bold underline underline-offset-4 ${TEAL}`}>
           {t.hero.cta1} <ArrowUpRight className="h-5 w-5" />
         </Link>
       </section>

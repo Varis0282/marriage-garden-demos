@@ -74,7 +74,7 @@ export function Nav() {
           <Link href="/" className="text-xs font-semibold text-[#B99B6B] hover:text-[#D6336C]">← All demos</Link>
           <LangToggle className="rounded-full border-2 border-[#2E7D5B] px-3 py-1 text-sm font-bold text-[#2E7D5B] hover:bg-[#2E7D5B] hover:text-white" />
           <Link
-            href={`${BASE}/contact`}
+            href={`${BASE}/contact#book`}
             className="rounded-full bg-[#D6336C] px-6 py-2.5 text-white shadow-lg shadow-pink-500/25 transition-transform hover:-rotate-1 hover:scale-105"
           >
             {t.nav.book}
@@ -95,7 +95,7 @@ export function Nav() {
             </Link>
           ))}
           <div className="mt-3 flex gap-3">
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="flex-1 rounded-full bg-[#D6336C] px-5 py-3 text-center font-bold text-white">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="flex-1 rounded-full bg-[#D6336C] px-5 py-3 text-center font-bold text-white">
               {t.nav.book}
             </Link>
             <Link href="/" onClick={() => setOpen(false)} className="rounded-full border-2 border-[#E9A319] px-4 py-3 text-sm font-bold text-[#B07A10]">
@@ -185,7 +185,7 @@ export function VenueCard({ i, full = false }: { i: number; full?: boolean }) {
             ))}
           </ul>
         )}
-        <Link href={`${BASE}/contact`} className="mt-5 inline-block rounded-full bg-[#E9A319] px-5 py-2 text-sm font-extrabold text-white shadow-md shadow-amber-500/30 transition-transform hover:scale-105">
+        <Link href={`${BASE}/contact#book`} className="mt-5 inline-block rounded-full bg-[#E9A319] px-5 py-2 text-sm font-extrabold text-white shadow-md shadow-amber-500/30 transition-transform hover:scale-105">
           {t.nav.book} →
         </Link>
       </div>
@@ -301,7 +301,7 @@ export function CTABand() {
         <Squiggle className="text-[#FFD68A]" />
         <p className="mt-3 text-pink-100">{t.sections.ctaSub}</p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Link href={`${BASE}/contact`} className="rounded-full bg-[#E9A319] px-8 py-3.5 font-extrabold text-white shadow-xl transition-transform hover:-rotate-1 hover:scale-105">
+          <Link href={`${BASE}/contact#book`} className="rounded-full bg-[#E9A319] px-8 py-3.5 font-extrabold text-white shadow-xl transition-transform hover:-rotate-1 hover:scale-105">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${inst.phoneRaw}`} className="flex items-center gap-2 rounded-full border-[3px] border-white/70 px-8 py-3.5 font-extrabold text-white transition-colors hover:bg-white/10">

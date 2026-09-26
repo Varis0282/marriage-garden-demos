@@ -59,7 +59,7 @@ export function Nav() {
           ))}
           <Link href="/" className="text-xs text-[#8A857B] hover:text-[#1F6E6B]">← All demos</Link>
           <LangToggle className="border-2 border-[#171512] px-3 py-1 text-xs font-bold hover:bg-[#171512] hover:text-[#FAF9F6]" />
-          <Link href={`${BASE}/contact`} className="bg-[#1F6E6B] px-6 py-2.5 text-sm font-bold text-white transition-colors hover:bg-[#171512]">
+          <Link href={`${BASE}/contact#book`} className="bg-[#1F6E6B] px-6 py-2.5 text-sm font-bold text-white transition-colors hover:bg-[#171512]">
             {t.nav.book}
           </Link>
         </nav>
@@ -78,7 +78,7 @@ export function Nav() {
             </Link>
           ))}
           <div className="mt-3 flex gap-3">
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="flex-1 bg-[#1F6E6B] px-5 py-3 text-center font-bold text-white">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="flex-1 bg-[#1F6E6B] px-5 py-3 text-center font-bold text-white">
               {t.nav.book}
             </Link>
             <Link href="/" onClick={() => setOpen(false)} className="px-4 py-3 text-xs text-[#8A857B]">← All demos</Link>
@@ -140,7 +140,7 @@ export function VenueRow({ i, full = false }: { i: number; full?: boolean }) {
             ))}
           </ul>
         )}
-        <Link href={`${BASE}/contact`} className={`mt-5 inline-flex items-center gap-1 font-bold underline underline-offset-4 ${TEAL} hover:text-[#171512]`}>
+        <Link href={`${BASE}/contact#book`} className={`mt-5 inline-flex items-center gap-1 font-bold underline underline-offset-4 ${TEAL} hover:text-[#171512]`}>
           {t.nav.book} <ArrowUpRight className="h-4 w-4" />
         </Link>
       </div>
@@ -244,7 +244,7 @@ export function CTABand() {
         <h2 className="font-display mt-4 max-w-3xl text-4xl leading-tight md:text-6xl">{t.sections.ctaTitle}</h2>
         <p className="mt-4 max-w-xl text-[#B8B3A6]">{t.sections.ctaSub}</p>
         <div className="mt-9 flex flex-wrap gap-4">
-          <Link href={`${BASE}/contact`} className="bg-[#1F6E6B] px-8 py-3.5 font-bold text-white transition-colors hover:bg-[#FAF9F6] hover:text-[#171512]">
+          <Link href={`${BASE}/contact#book`} className="bg-[#1F6E6B] px-8 py-3.5 font-bold text-white transition-colors hover:bg-[#FAF9F6] hover:text-[#171512]">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${inst.phoneRaw}`} className="flex items-center gap-2 border-2 border-[#FAF9F6]/40 px-8 py-3.5 font-bold transition-colors hover:border-[#FAF9F6]">

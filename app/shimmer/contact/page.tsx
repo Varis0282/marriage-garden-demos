@@ -15,7 +15,7 @@ export default function Contact() {
       <section className="px-4 py-12">
         <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-5">
           <FadeIn className="lg:col-span-3">
-            <BookingForm styles={bookingStyles} />
+            <div id="book" className="scroll-mt-28"><BookingForm styles={bookingStyles} /></div>
           </FadeIn>
           <FadeIn delay={0.15} className="space-y-5 lg:col-span-2">
             {[

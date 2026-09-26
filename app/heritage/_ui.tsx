@@ -63,7 +63,7 @@ export function Nav() {
             </Link>
           ))}
           <Link
-            href={`${BASE}/contact`}
+            href={`${BASE}/contact#book`}
             className="rounded-full bg-[#7B1E3A] px-6 py-2.5 text-[#F3E3C8] shadow-md shadow-rose-900/20 transition-colors hover:bg-[#5E1029]"
           >
             {t.nav.book}
@@ -80,7 +80,7 @@ export function Nav() {
               {l.label}
             </Link>
           ))}
-          <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="mt-3 block rounded-full bg-[#7B1E3A] px-5 py-3 text-center font-semibold text-[#F3E3C8]">
+          <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="mt-3 block rounded-full bg-[#7B1E3A] px-5 py-3 text-center font-semibold text-[#F3E3C8]">
             {t.nav.book}
           </Link>
         </nav>
@@ -171,7 +171,7 @@ export function VenueCard({ i, full = false }: { i: number; full?: boolean }) {
             ))}
           </ul>
         )}
-        <Link href={`${BASE}/contact`} className="mt-5 inline-block rounded-full border border-[#7B1E3A] px-5 py-2 text-sm font-bold text-[#7B1E3A] transition-colors hover:bg-[#7B1E3A] hover:text-[#F3E3C8]">
+        <Link href={`${BASE}/contact#book`} className="mt-5 inline-block rounded-full border border-[#7B1E3A] px-5 py-2 text-sm font-bold text-[#7B1E3A] transition-colors hover:bg-[#7B1E3A] hover:text-[#F3E3C8]">
           {t.nav.book} →
         </Link>
       </div>
@@ -276,7 +276,7 @@ export function CTABand() {
         <h2 className="font-display text-4xl font-bold text-[#F3E3C8] md:text-5xl">{t.sections.ctaTitle}</h2>
         <p className="mt-3 text-[#D9C9B2]">{t.sections.ctaSub}</p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Link href={`${BASE}/contact`} className="rounded-full bg-[#C9A227] px-8 py-3.5 font-bold text-[#3D2430] shadow-lg transition-transform hover:scale-105">
+          <Link href={`${BASE}/contact#book`} className="rounded-full bg-[#C9A227] px-8 py-3.5 font-bold text-[#3D2430] shadow-lg transition-transform hover:scale-105">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${inst.phoneRaw}`} className="flex items-center gap-2 rounded-full border-2 border-[#F3E3C8]/60 px-8 py-3.5 font-bold text-[#F3E3C8] transition-colors hover:bg-white/10">

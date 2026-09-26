@@ -31,7 +31,7 @@ export default function Services() {
             })}
           </div>
           <div className="mt-14 text-center">
-            <Link href={`${BASE}/contact`} className="bg-[#E4CE9A] px-9 py-3.5 font-bold uppercase tracking-[0.15em] text-[#08281F] transition-colors hover:bg-[#F0E2BD]">
+            <Link href={`${BASE}/contact#book`} className="bg-[#E4CE9A] px-9 py-3.5 font-bold uppercase tracking-[0.15em] text-[#08281F] transition-colors hover:bg-[#F0E2BD]">
               {t.hero.cta1}
             </Link>
           </div>

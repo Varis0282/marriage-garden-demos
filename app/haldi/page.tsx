@@ -26,7 +26,7 @@ export default function Home() {
             <Squiggle className="ml-1 text-[#E9A319] !mx-0" />
             <p className="mt-5 max-w-lg text-[#8A6F4D]">{t.hero.sub}</p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <Link href={`${BASE}/contact`} className="flex items-center gap-2 rounded-full bg-[#D6336C] px-7 py-3.5 font-extrabold text-white shadow-xl shadow-pink-500/25 transition-transform hover:-rotate-1 hover:scale-105">
+              <Link href={`${BASE}/contact#book`} className="flex items-center gap-2 rounded-full bg-[#D6336C] px-7 py-3.5 font-extrabold text-white shadow-xl shadow-pink-500/25 transition-transform hover:-rotate-1 hover:scale-105">
                 <CalendarCheck className="h-5 w-5" /> {t.hero.cta1}
               </Link>
               <a href={`tel:${inst.phoneRaw}`} className="flex items-center gap-2 rounded-full border-[3px] border-[#2E7D5B] px-7 py-3.5 font-extrabold text-[#2E7D5B] transition-colors hover:bg-[#2E7D5B] hover:text-white">

@@ -55,7 +55,7 @@ export function Nav() {
           ))}
           <Link href="/" className="text-[11px] normal-case tracking-normal text-[#6E8377] hover:text-[#E4CE9A]">← All demos</Link>
           <LangToggle className={`px-3 py-1 text-xs ${hairline} hover:bg-[#E4CE9A]/10`} />
-          <Link href={`${BASE}/contact`} className="border border-[#E4CE9A] px-6 py-2.5 text-[#E4CE9A] transition-colors hover:bg-[#E4CE9A] hover:text-[#08281F]">
+          <Link href={`${BASE}/contact#book`} className="border border-[#E4CE9A] px-6 py-2.5 text-[#E4CE9A] transition-colors hover:bg-[#E4CE9A] hover:text-[#08281F]">
             {t.nav.book}
           </Link>
         </nav>
@@ -74,7 +74,7 @@ export function Nav() {
             </Link>
           ))}
           <div className="mt-4 flex gap-3">
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="flex-1 border border-[#E4CE9A] px-5 py-3 text-center font-semibold text-[#E4CE9A]">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="flex-1 border border-[#E4CE9A] px-5 py-3 text-center font-semibold text-[#E4CE9A]">
               {t.nav.book}
             </Link>
             <Link href="/" onClick={() => setOpen(false)} className="px-4 py-3 text-xs text-[#6E8377]">← All demos</Link>
@@ -157,7 +157,7 @@ export function VenueRow({ i, flip = false, full = false }: { i: number; flip?: 
             ))}
           </ul>
         )}
-        <Link href={`${BASE}/contact`} className="mt-7 inline-block border border-[#E4CE9A] px-7 py-2.5 text-sm font-semibold uppercase tracking-[0.15em] text-[#E4CE9A] transition-colors hover:bg-[#E4CE9A] hover:text-[#08281F]">
+        <Link href={`${BASE}/contact#book`} className="mt-7 inline-block border border-[#E4CE9A] px-7 py-2.5 text-sm font-semibold uppercase tracking-[0.15em] text-[#E4CE9A] transition-colors hover:bg-[#E4CE9A] hover:text-[#08281F]">
           {t.nav.book}
         </Link>
       </div>
@@ -260,7 +260,7 @@ export function CTABand() {
         <h2 className={`font-display text-3xl md:text-5xl ${GOLD}`}>{t.sections.ctaTitle}</h2>
         <p className="mt-4 text-[#9FB3A5]">{t.sections.ctaSub}</p>
         <div className="mt-9 flex flex-wrap justify-center gap-4">
-          <Link href={`${BASE}/contact`} className="bg-[#E4CE9A] px-9 py-3.5 font-bold uppercase tracking-[0.15em] text-[#08281F] transition-colors hover:bg-[#F0E2BD]">
+          <Link href={`${BASE}/contact#book`} className="bg-[#E4CE9A] px-9 py-3.5 font-bold uppercase tracking-[0.15em] text-[#08281F] transition-colors hover:bg-[#F0E2BD]">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${inst.phoneRaw}`} className="flex items-center gap-2 border border-[#E4CE9A]/50 px-9 py-3.5 font-semibold uppercase tracking-[0.15em] text-[#E4CE9A] transition-colors hover:bg-[#E4CE9A]/10">

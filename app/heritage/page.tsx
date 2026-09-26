@@ -23,7 +23,7 @@ export default function Home() {
           </h1>
           <p className="mt-5 max-w-lg text-[#8A7280]">{t.hero.sub}</p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <Link href={`${BASE}/contact`} className="flex items-center gap-2 rounded-full bg-[#7B1E3A] px-7 py-3.5 font-bold text-[#F3E3C8] shadow-lg shadow-rose-900/20 transition-transform hover:scale-105">
+            <Link href={`${BASE}/contact#book`} className="flex items-center gap-2 rounded-full bg-[#7B1E3A] px-7 py-3.5 font-bold text-[#F3E3C8] shadow-lg shadow-rose-900/20 transition-transform hover:scale-105">
               <CalendarCheck className="h-5 w-5" /> {t.hero.cta1}
             </Link>
             <a href={`tel:${inst.phoneRaw}`} className="flex items-center gap-2 rounded-full border-2 border-[#7B1E3A] px-7 py-3.5 font-bold text-[#7B1E3A] transition-colors hover:bg-[#7B1E3A] hover:text-[#F3E3C8]">

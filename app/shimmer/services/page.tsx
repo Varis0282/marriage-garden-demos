@@ -29,7 +29,7 @@ export default function Services() {
           })}
         </div>
         <FadeIn className="mt-12 text-center">
-          <Link href={`${BASE}/contact`} className="rounded-full bg-gradient-to-r from-[#F45B8C] to-[#7C3AED] px-8 py-3.5 font-bold text-white shadow-xl shadow-[#F45B8C]/30 transition-transform hover:scale-105">
+          <Link href={`${BASE}/contact#book`} className="rounded-full bg-gradient-to-r from-[#F45B8C] to-[#7C3AED] px-8 py-3.5 font-bold text-white shadow-xl shadow-[#F45B8C]/30 transition-transform hover:scale-105">
             {t.hero.cta1}
           </Link>
         </FadeIn>
